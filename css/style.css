@@ -481,7 +481,7 @@ section {
 
 /* MEDIA QUERIES */
 
-@media (max-width: 991px) {
+@media (max-width: 801px) {
     html {
         font-size: 55%;
     }
@@ -731,3 +731,34 @@ footer a {
     color: #3C97BF;
     text-decoration: none;
 } */
+/* Default styles for the section */
+.book {
+    text-align: center;
+    padding: 20px;
+}
+
+.heading {
+    font-size: 24px;
+}
+
+.embed-responsive-item {
+    width: 100%;
+    height: auto;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .heading {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 640px) {
+    .heading {
+        font-size: 18px;
+    }
+    
+    .embed-responsive-item {
+        height: 600px; /* Adjust the height as needed for smaller screens */
+    }
+}
